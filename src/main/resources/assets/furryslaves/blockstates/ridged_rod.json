@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "": { "model": "furryslaves:block/ridged_rod"
+    },
+    "facing=down": {
+      "model": "furryslaves:block/ridged_rod",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "furryslaves:block/ridged_rod",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furryslaves:block/ridged_rod",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "furryslaves:block/ridged_rod",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "furryslaves:block/ridged_rod"
+    },
+    "facing=west": {
+      "model": "furryslaves:block/ridged_rod",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

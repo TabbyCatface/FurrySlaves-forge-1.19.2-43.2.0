@@ -17,3 +17,6 @@ The main files needed to be configured as a mandatory are:
 
 // Temp Minecraft installation:
 - run/...
+
+// IF THERE IS ANYTHING IN PARTICULAR OF INTEREST IN THE VANILLA MINECRAFT ASSETS, they are here:
+- (External Libraries) /Gradle: net.minecraft:client:extra:1.19.2/...

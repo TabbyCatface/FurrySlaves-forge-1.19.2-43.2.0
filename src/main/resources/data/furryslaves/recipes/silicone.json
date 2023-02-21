@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silicone",
+  "ingredients": [
+    { "tag": "minecraft:coals" },
+    { "item": "minecraft:flint" }
+  ],
+  "result": {
+    "item": "furryslaves:silicone",
+    "count": 2
+  }
+}

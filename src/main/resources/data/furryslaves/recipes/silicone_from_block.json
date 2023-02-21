@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silicone",
+  "ingredients": [
+    {
+      "item": "furryslaves:silicone_block"
+    }
+  ],
+  "result": {
+    "item": "furryslaves:silicone",
+    "count": 9
+  }
+}
