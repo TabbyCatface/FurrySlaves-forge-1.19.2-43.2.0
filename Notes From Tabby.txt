@@ -1,0 +1,19 @@
+The main files needed to be configured as a mandatory are:
+
+// Files that store meta info about the mod (keep mod version updated):
+- build.gradle
+- src/main/resources/META-INF/mods.toml
+
+// Basic tasks to operate the dev environment:
+- Tasks/forgegradle runs/<genIntellijRuns> //must be run once on env. setup
+- Tasks/build/<build>
+- Tasks/forgegradle runs/<runClient>
+
+// Code source path:
+- src/main/java/...
+
+// Build modification path:
+- build/libs/...
+
+// Temp Minecraft installation:
+- run/...
