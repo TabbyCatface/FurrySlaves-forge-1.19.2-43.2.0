@@ -1,6 +1,7 @@
 {
   "variants": {
-    "": { "model": "furryslaves:block/ridged_rod"
+    "facing=up": {
+      "model": "furryslaves:block/ridged_rod"
     },
     "facing=down": {
       "model": "furryslaves:block/ridged_rod",
@@ -19,9 +20,6 @@
       "model": "furryslaves:block/ridged_rod",
       "x": 90,
       "y": 180
-    },
-    "facing=up": {
-      "model": "furryslaves:block/ridged_rod"
     },
     "facing=west": {
       "model": "furryslaves:block/ridged_rod",

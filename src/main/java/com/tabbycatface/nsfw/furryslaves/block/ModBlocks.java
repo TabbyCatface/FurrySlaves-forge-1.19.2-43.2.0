@@ -1,6 +1,7 @@
 package com.tabbycatface.nsfw.furryslaves.block;
 
 import com.tabbycatface.nsfw.furryslaves.FurrySlaves;
+import com.tabbycatface.nsfw.furryslaves.block.custom.Rod_Block;
 import com.tabbycatface.nsfw.furryslaves.item.ModCreativeModeTab;
 import com.tabbycatface.nsfw.furryslaves.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -30,8 +31,9 @@ public class ModBlocks {
             ModCreativeModeTab.FURRYSLAVES_TAB);
 
     public static final RegistryObject<Block> RIDGED_ROD = registerBlock("ridged_rod",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1f)),
-            ModCreativeModeTab.FURRYSLAVES_TAB);
+            () -> new Rod_Block(BlockBehaviour.Properties.of(Material.METAL).strength(1f)
+                    .noOcclusion().dynamicShape()
+            ), ModCreativeModeTab.FURRYSLAVES_TAB);
 
 
 

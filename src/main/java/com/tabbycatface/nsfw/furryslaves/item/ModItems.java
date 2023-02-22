@@ -1,6 +1,7 @@
 package com.tabbycatface.nsfw.furryslaves.item;
 
 import com.tabbycatface.nsfw.furryslaves.FurrySlaves;
+import com.tabbycatface.nsfw.furryslaves.item.custom.Dice20_Item;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,6 +20,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> SILICONE = ITEMS.register("silicone",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FURRYSLAVES_TAB)) );
+
+    public static final RegistryObject<Item> DICE20 = ITEMS.register("dice20",
+            () -> new Dice20_Item(new Item.Properties().tab(ModCreativeModeTab.FURRYSLAVES_TAB)) );
 
 
 

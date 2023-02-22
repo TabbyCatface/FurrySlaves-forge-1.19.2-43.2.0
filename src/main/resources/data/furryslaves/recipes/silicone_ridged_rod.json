@@ -1,9 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "silicone",
   "pattern": [
       " # ",
-      " A ",
+      "A#A",
       " # "
   ],
   "key": {
