@@ -1,5 +1,7 @@
 The main files needed to be configured as a mandatory are:
 
+I am deeply concerned for my repository's wellbeing right now.
+
 // Files that store meta info about the mod (keep mod version updated):
 - build.gradle
 - src/main/resources/META-INF/mods.toml
