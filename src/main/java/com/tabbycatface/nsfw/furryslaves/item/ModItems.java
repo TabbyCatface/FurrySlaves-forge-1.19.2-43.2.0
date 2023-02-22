@@ -1,7 +1,6 @@
 package com.tabbycatface.nsfw.furryslaves.item;
 
 import com.tabbycatface.nsfw.furryslaves.FurrySlaves;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
