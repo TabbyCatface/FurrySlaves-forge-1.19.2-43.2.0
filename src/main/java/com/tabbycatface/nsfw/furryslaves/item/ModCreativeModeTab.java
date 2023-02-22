@@ -6,8 +6,6 @@ import net.minecraft.world.item.ItemStack;
 public class ModCreativeModeTab {
     public static final CreativeModeTab FURRYSLAVES_TAB = new CreativeModeTab("furryslavestab") {
         @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(ModItems.SILICONE.get() );
-        }
+        public ItemStack makeIcon() {return new ItemStack(ModItems.DICE20.get() );}
     };
 }
